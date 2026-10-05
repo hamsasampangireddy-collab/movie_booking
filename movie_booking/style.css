@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    background:black;
+    color: #18283b;
+
+}
+.main-container nav{
+    width: 100%;
+}
+ 
+ 
+
+
+nav {
+    height: 70px;
+    background: #101d2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 5px;
+}
+
+.nav-links a.active {
+    border-bottom: 3px solid #1877f2;
+}
+
+
+
+
+.hero {
+    margin: 22px 32px;
+    height: 285px;
+
+    background:
+    linear-gradient(
+            90deg,
+            rgba(8,20,34,0.95),
+            rgba(8,20,34,0.25)
+        ),
+        
+        url("images/boking.webp")
+        center/cover;
+
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    margin-left: 65px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero input {
+    width: 520px;
+    padding: 17px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+
+.main-container {
+    display: grid;
+    grid-template-columns:6 400px;
+    gap: 30px;
+    padding: 0 35px 40px;
+}
+
+.movies-section h2,
+.booking h2 {
+    margin-bottom: 22px;
+}
+
+
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 3fr);
+    gap: 18px;
+}
+
+.movie-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    padding-bottom: 15px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    padding: 12px 10px 7px;
+    font-size: 17px;
+}
+
+.tags {
+    padding: 0 10px;
+}
+
+.tags span {
+    background: #eef3f9;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.details {
+    padding: 12px 10px;
+    color: #536477;
+    font-size: 13px;
+}
+
+.movie-card button {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #1877f2;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.movie-card button:hover {
+    background: #0d5dcc;
+    cursor: pointer;
+}
+
+
+
+
+.booking {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.booking label {
+    display: block;
+    margin: 17px 0 7px;
+    color: #40546b;
+}
+
+.booking select,
+.booking input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5dce5;
+    border-radius: 7px;
+    background: white;
+}
+
+.movies-section h1{
+    color: white;
+
+}
+.a{
+    text-align: center;
+}
+
+
+
+
+
